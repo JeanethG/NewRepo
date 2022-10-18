@@ -28,17 +28,19 @@ Partial Class Form1
         'btnStart
         '
         Me.btnStart.BackColor = System.Drawing.SystemColors.MenuHighlight
+        Me.btnStart.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnStart.Location = New System.Drawing.Point(259, 49)
         Me.btnStart.Name = "btnStart"
         Me.btnStart.Size = New System.Drawing.Size(154, 88)
         Me.btnStart.TabIndex = 0
-        Me.btnStart.Text = "Press Here"
+        Me.btnStart.Text = "Inbox"
         Me.btnStart.UseVisualStyleBackColor = False
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.SystemColors.InactiveCaption
         Me.ClientSize = New System.Drawing.Size(831, 336)
         Me.Controls.Add(Me.btnStart)
         Me.Name = "Form1"
